@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GO GREEN</title>
+  </head>
+  <body class="h-screen">
+    <div
+      class="w-full h-[92px] bg-amber-400 flex flex-row justify-between items-center px-[65px]"
+    >
+      <a
+        href="#"
+        class="text-[35px] text-[#20B46F] hover:text-white transition-all duration-250 ease-linear"
+      >
+        GO SCREEN</a
+      >
+
+      <ul class="flex flex-row gap-[25px]">
+        <li class="text-[#20B46F] pb-[15px] cursor-pointer">HOME</li>
+        <li class="hover:text-[#20B46F] text-white cursor-pointer">ABOUT</li>
+        <li class="hover:text-[#20B46F] text-white cursor-pointer">SERVICES</li>
+        <li class="hover:text-[#20B46F] text-white cursor-pointer">PORTFILO</li>
+        <li class="hover:text-[#20B46F] text-white cursor-pointer">PRICE</li>
+        <!-- <li class="hover:text-[#20B46F] text-white cursor-pointer relative">
+          DROP DOWN ⌄
+          <div
+            class="absolute left-[-5px] top-[40px] w-[220px] h-[200px] bg-gray-300 pl-[20px] flex flex-col justify-center items-start rounded-[15px] hover:text-white pointer-events-none"
+          >
+            <ul class="flex flex-col gap-[10px]">
+              <li>Drop Down Menu</li>
+              <li>Drop Down Menu</li>
+              <li>Drop Down Menu</li>
+              <li>Drop Down Menu</li>
+              <li>Drop Down Menu</li>
+            </ul>
+          </div>
+        </li> -->
+
+        <li
+          class="group hover:text-[#20B46F] text-white cursor-pointer relative"
+        >
+          DROP DOWN ⌄
+          <div
+            class="absolute left-[-5px] top-[40px] w-[220px] h-[200px] bg-gray-300 pl-[20px] flex flex-col justify-center items-start rounded-[15px] opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 ease-linear"
+          >
+            <ul class="flex flex-col gap-[10px] text-white">
+              <li>Drop Down Menu</li>
+              <li>Drop Down Menu</li>
+              <li>Drop Down Menu</li>
+              <li>Drop Down Menu</li>
+              <li>Drop Down Menu</li>
+            </ul>
+          </div>
+        </li>
+
+        <li class="hover:text-[#20B46F] text-white cursor-pointer">CONTACT</li>
+      </ul>
+    </div>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
