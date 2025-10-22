@@ -6,58 +6,1195 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>GO GREEN</title>
   </head>
+
   <body class="h-screen">
-    <div
-      class="w-full h-[92px] bg-amber-400 flex flex-row justify-between items-center px-[65px]"
-    >
-      <a
-        href="#"
-        class="text-[35px] text-[#20B46F] hover:text-white transition-all duration-250 ease-linear"
-      >
-        GO SCREEN</a
-      >
+    <!-- header section -->
 
-      <ul class="flex flex-row gap-[25px]">
-        <li class="text-[#20B46F] pb-[15px] cursor-pointer">HOME</li>
-        <li class="hover:text-[#20B46F] text-white cursor-pointer">ABOUT</li>
-        <li class="hover:text-[#20B46F] text-white cursor-pointer">SERVICES</li>
-        <li class="hover:text-[#20B46F] text-white cursor-pointer">PORTFILO</li>
-        <li class="hover:text-[#20B46F] text-white cursor-pointer">PRICE</li>
-        <!-- <li class="hover:text-[#20B46F] text-white cursor-pointer relative">
-          DROP DOWN ⌄
-          <div
-            class="absolute left-[-5px] top-[40px] w-[220px] h-[200px] bg-gray-300 pl-[20px] flex flex-col justify-center items-start rounded-[15px] hover:text-white pointer-events-none"
-          >
-            <ul class="flex flex-col gap-[10px]">
-              <li>Drop Down Menu</li>
-              <li>Drop Down Menu</li>
-              <li>Drop Down Menu</li>
-              <li>Drop Down Menu</li>
-              <li>Drop Down Menu</li>
-            </ul>
-          </div>
-        </li> -->
-
-        <li
-          class="group hover:text-[#20B46F] text-white cursor-pointer relative"
+    <header>
+      <div
+        class="w-full h-[90px] z-997 bg-transparent fixed flex flex-row justify-between items-center px-[65px]"
+        id="header"
+      >
+        <a
+          href="#"
+          class="text-[33px] tracking-[5px] leading-none font-bold text-[#20B46F] hover:text-white transition-all duration-250 ease-linear"
         >
-          DROP DOWN ⌄
-          <div
-            class="absolute left-[-5px] top-[40px] w-[220px] h-[200px] bg-gray-300 pl-[20px] flex flex-col justify-center items-start rounded-[15px] opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 ease-linear"
-          >
-            <ul class="flex flex-col gap-[10px] text-white">
-              <li>Drop Down Menu</li>
-              <li>Drop Down Menu</li>
-              <li>Drop Down Menu</li>
-              <li>Drop Down Menu</li>
-              <li>Drop Down Menu</li>
-            </ul>
-          </div>
-        </li>
+          GO SCREEN
+        </a>
 
-        <li class="hover:text-[#20B46F] text-white cursor-pointer">CONTACT</li>
-      </ul>
-    </div>
+        <ul class="flex flex-row gap-[25px]">
+          <li class="text-[#20B46F] pb-[15px] cursor-pointer">HOME</li>
+          <li class="hover:text-[#20B46F] text-white cursor-pointer">ABOUT</li>
+          <li class="hover:text-[#20B46F] text-white cursor-pointer">
+            SERVICES
+          </li>
+          <li class="hover:text-[#20B46F] text-white cursor-pointer">
+            PORTFILO
+          </li>
+          <li class="hover:text-[#20B46F] text-white cursor-pointer">PRICE</li>
+          <li
+            class="group hover:text-[#20B46F] text-white cursor-pointer relative"
+          >
+            DROP DOWN ⌄
+            <div
+              class="absolute left-[-5px] top-[40px] w-[220px] h-[200px] bg-gray-300 pl-[20px] flex flex-col justify-center items-start rounded-[15px] opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 ease-linear"
+            >
+              <ul class="flex flex-col gap-[10px] text-white">
+                <li>Drop Down Menu</li>
+                <li>Drop Down Menu</li>
+                <li>Drop Down Menu</li>
+                <li>Drop Down Menu</li>
+                <li>Drop Down Menu</li>
+              </ul>
+            </div>
+          </li>
+          <li class="hover:text-[#20B46F] text-white cursor-pointer">
+            CONTACT
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- slider section -->
+
+    <section>
+      <div class="w-full h-[755px] bg-amber-700 relative">
+        <div
+          class="absolute left-[2rem] bottom-[25rem] w-[25px] h-[25px] z-999 rotate-180"
+          id="rightGoSlider"
+        >
+          <svg
+            fill="#808080"
+            width="24px"
+            height="24px"
+            viewBox="0 0 15 15"
+            xmlns="http://www.w3.org/2000/svg"
+            id="arrow"
+            class="transition-all hover:fill-white"
+          >
+            <path
+              d="M8.29289 2.29289C8.68342 1.90237 9.31658 1.90237 9.70711 2.29289L14.2071 6.79289C14.5976 7.18342 14.5976 7.81658 14.2071 8.20711L9.70711 12.7071C9.31658 13.0976 8.68342 13.0976 8.29289 12.7071C7.90237 12.3166 7.90237 11.6834 8.29289 11.2929L11 8.5H1.5C0.947715 8.5 0.5 8.05228 0.5 7.5C0.5 6.94772 0.947715 6.5 1.5 6.5H11L8.29289 3.70711C7.90237 3.31658 7.90237 2.68342 8.29289 2.29289Z"
+            />
+          </svg>
+        </div>
+
+        <div
+          class="absolute right-[2rem] bottom-[25rem] w-[25px] h-[25px] z-999"
+          id="leftGoSlider"
+        >
+          <svg
+            fill="#808080"
+            width="24px"
+            height="24px"
+            viewBox="0 0 15 15"
+            xmlns="http://www.w3.org/2000/svg"
+            id="arrow"
+            class="transition-all hover:fill-white"
+          >
+            <path
+              d="M8.29289 2.29289C8.68342 1.90237 9.31658 1.90237 9.70711 2.29289L14.2071 6.79289C14.5976 7.18342 14.5976 7.81658 14.2071 8.20711L9.70711 12.7071C9.31658 13.0976 8.68342 13.0976 8.29289 12.7071C7.90237 12.3166 7.90237 11.6834 8.29289 11.2929L11 8.5H1.5C0.947715 8.5 0.5 8.05228 0.5 7.5C0.5 6.94772 0.947715 6.5 1.5 6.5H11L8.29289 3.70711C7.90237 3.31658 7.90237 2.68342 8.29289 2.29289Z"
+            />
+          </svg>
+        </div>
+
+        <div
+          class="flex absolute bottom-[2rem] left-[50%] -translate-[50%] gap-2 z-999"
+        >
+          <div class="sortSlider w-8 h-1 changeColor bg-[#656565]"></div>
+          <div class="sortSlider w-8 h-1 bg-[#656565]"></div>
+          <div class="sortSlider w-8 h-1 bg-[#656565]"></div>
+        </div>
+
+        <div
+          class="slids current job-Section-1 w-full h-full bg-[url(./media/slider-1.jpg)] bg-cover bg-center flex flex-col justify-center items-center gap-[25px] p-[50px]"
+          id="job-Section-1"
+        >
+          <p class="text-white text-[70px]">Web Development</p>
+
+          <p class="w-[48%] text-center text-white">
+            Aenean volutpat, dolor eu finibus rhoncus, elit felis vehicula nunc,
+            ut pulvinar ex diam nec lacus. Phasellus sit amet rhoncus turpis.
+            Aenean tincidunt auctor purus
+          </p>
+
+          <div
+            class="w-[200px] h-[50px] bg-[#1DBF73] p-[25px] flex justify-center items-center text-white text-[18px] hover:bg-white hover:text-[#1DBF73]"
+          >
+            GET STARTED
+          </div>
+        </div>
+
+        <div
+          class="slids job-Section-1 bg-blue-300 w-full h-full bg-[url(./media/slider-2.jpg)] bg-cover bg-center flex flex-col justify-center items-center gap-[25px] p-[50px]"
+          id="job-Section-2"
+        >
+          <p class="text-white text-[70px]">App Development</p>
+
+          <p class="w-[48%] text-center text-white">
+            Aenean volutpat, dolor eu finibus rhoncus, elit felis vehicula nunc,
+            ut pulvinar ex diam nec lacus. Phasellus sit amet rhoncus turpis.
+            Aenean tincidunt auctor purus
+          </p>
+
+          <div
+            class="w-[200px] h-[50px] bg-[#1DBF73] p-[25px] flex justify-center items-center text-white text-[18px] hover:bg-white hover:text-[#1DBF73]"
+          >
+            GET STARTED
+          </div>
+        </div>
+
+        <div
+          class="slids job-Section-1 bg-green-300 w-full h-full bg-[url(./media/slider-3.jpg)] bg-cover bg-center flex flex-col justify-center items-center gap-[25px] p-[50px]"
+          id="job-Section-3"
+        >
+          <p class="text-white text-[70px]">Game Development</p>
+
+          <p class="w-[48%] text-center text-white">
+            Aenean volutpat, dolor eu finibus rhoncus, elit felis vehicula nunc,
+            ut pulvinar ex diam nec lacus. Phasellus sit amet rhoncus turpis.
+            Aenean tincidunt auctor purus
+          </p>
+
+          <div
+            class="w-[200px] h-[50px] bg-[#1DBF73] p-[25px] flex justify-center items-center text-white text-[18px] hover:bg-white hover:text-[#1DBF73]"
+          >
+            GET STARTED
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- about us section -->
+
+    <section class="pt-[60px] pb-[70px] flex justify-center bg-[#f2f2f2]">
+      <div class="w-[1140px] flex flex-col gap-5">
+        <div class="flex flex-col items-center text-center gap-5">
+          <h3
+            class="text-[32px] font-medium w-[200px] pb-[10px] h-auto border-b-4 border-black border-dashed"
+          >
+            About Us
+          </h3>
+
+          <!-- <div
+            class="w-[100px] h-[15px] border-b-4 border-black border-dashed"
+          ></div> -->
+
+          <p class="text-[#656565] text-[16px] pb-[30px] w-[60%]">
+            Maecenas vel turpis quis lorem aliquam tempus quis non mi.
+            Pellentesque habitant morbi tristique senectus et netus et malesuada
+            fames ac turpis egestas.
+          </p>
+        </div>
+        <div class="flex flex-col gap-5">
+          <div class="flex gap-8 items-center">
+            <img src="./media/about.jpg" alt="" class="w-[50%]" />
+            <div class="flex flex-col gap-5 pt-[40px]">
+              <h3
+                style="transition: 0.3s"
+                class="text-[#1dbf73] text-4xl font-semibold hover:text-black cursor-pointer"
+              >
+                <a href="#" class="text-[32px]">Welcome to Our Site</a>
+              </h3>
+              <p class="text-[#656565] text-[16px]">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
+                condimentum rutrum ligula. Integer ac porttitor mi. In finibus
+                vehicula aliquet. Vestibulum et velit placerat, pretium lorem
+                id, porttitor libero. Suspendisse scelerisque nec arcu a
+                malesuada. Nulla tempus dictum tristique.
+              </p>
+              <button
+                style="transition: 0.3s"
+                class="bg-[#1dbf73] w-[115px] hover:bg-[#353535] text-white cursor-pointer text-lg"
+              >
+                <a href="#" class="text-[14px]">Read More</a>
+              </button>
+            </div>
+          </div>
+          <div class="flex gap-6 justify-center h-full w-full">
+            <div
+              style="transition: 0.3s"
+              class="bg-white flex flex-col gap-10 group hover:shadow-md"
+            >
+              <div class="relative">
+                <img src="./media/about-mission.jpg" alt="" />
+                <div
+                  style="transition: 0.3s"
+                  class="p-3 bg-[#1dbf73] rounded-full absolute bottom-[-12%] left-[44%] border-4 border-white group-hover:bg-white"
+                >
+                  <svg
+                    class="group-hover:fill-[#1dbf73]"
+                    fill="#ffffff"
+                    width="40px"
+                    height="40px"
+                    viewBox="0 0 256 256"
+                    id="Flat"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M205.20361,52.561a11.9831,11.9831,0,0,0-1.76562-1.76575,108.1521,108.1521,0,1,0,1.76562,1.76575ZM170.323,116a43.7392,43.7392,0,0,0-3.91748-9.4353L195.24927,77.721A83.5787,83.5787,0,0,1,211.12915,116ZM148,128a20,20,0,1,1-20-20A20.0226,20.0226,0,0,1,148,128Zm-20,84A84,84,0,1,1,178.27832,60.75049L149.43481,89.594A43.99139,43.99139,0,1,0,170.323,140h40.80615A84.1192,84.1192,0,0,1,128,212Z"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div class="px-8 pb-8 flex flex-col gap-4">
+                <div class="text-center">
+                  <span
+                    class="text-2xl font-semibold cursor-pointer hover:text-[#1dbf73]"
+                    style="transition: 0.3s"
+                    >Our Mission</span
+                  >
+                </div>
+                <p class="text-[#656565] text-lg">
+                  Aenean volutpat, dolor eu finibus rhoncus, elit felis vehicula
+                  nunc, ut pulvinar ex diam nec lacus. Phasellus sit amet
+                  rhoncus turpis. Aenean tincidunt auctor purus, ac sodales
+                  sapien sagittis
+                </p>
+                <div class="flex justify-center">
+                  <button
+                    style="transition: 0.3s"
+                    class="bg-[#1dbf73] py-2 px-3 w-35 text-white group-hover:bg-gray-800"
+                  >
+                    Read More
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div
+              style="transition: 0.3s"
+              class="bg-white flex flex-col gap-10 group hover:shadow-md"
+            >
+              <div class="relative">
+                <img src="./media/about-vision.jpg" alt="" />
+                <div
+                  style="transition: 0.3s"
+                  class="p-3 bg-[#1dbf73] rounded-full absolute bottom-[-12%] left-[44%] border-4 border-white group-hover:bg-white"
+                >
+                  <svg
+                    class="group-hover:fill-[#1dbf73]"
+                    fill="#ffffff"
+                    height="30px"
+                    width="30px"
+                    version="1.1"
+                    id="Layer_1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    viewBox="0 0 512 512"
+                    enable-background="new 0 0 512 512"
+                    xml:space="preserve"
+                  >
+                    <path
+                      d="M0,226v32c128,192,384,192,512,0v-32C384,34,128,34,0,226z M256,370c-70.7,0-128-57.3-128-128s57.3-128,128-128
+	        s128,57.3,128,128S326.7,370,256,370z M256,170c0-8.3,1.7-16.1,4.3-23.6c-1.5-0.1-2.8-0.4-4.3-0.4c-53,0-96,43-96,96s43,96,96,96
+	        c53,0,96-43,96-96c0-1.5-0.4-2.8-0.4-4.3c-7.4,2.6-15.3,4.3-23.6,4.3C288.2,242,256,209.8,256,170z"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div class="px-8 pb-8 flex flex-col gap-4">
+                <div class="text-center">
+                  <span
+                    class="text-2xl font-semibold cursor-pointer hover:text-[#1dbf73]"
+                    style="transition: 0.3s"
+                    >Our Vision</span
+                  >
+                </div>
+                <p class="text-[#656565] text-lg">
+                  Aenean volutpat, dolor eu finibus rhoncus, elit felis vehicula
+                  nunc, ut pulvinar ex diam nec lacus. Phasellus sit amet
+                  rhoncus turpis. Aenean tincidunt auctor purus, ac sodales
+                  sapien sagittis
+                </p>
+                <div class="flex justify-center">
+                  <button
+                    style="transition: 0.3s"
+                    class="bg-[#1dbf73] py-2 px-3 w-35 text-white group-hover:bg-gray-800"
+                  >
+                    Read More
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div
+              style="transition: 0.3s"
+              class="bg-white flex flex-col gap-10 group hover:shadow-md"
+            >
+              <div class="relative">
+                <img src="./media/about-objective.jpg" alt="" />
+                <div
+                  style="transition: 0.3s"
+                  class="p-3 bg-[#1dbf73] rounded-full absolute bottom-[-12%] left-[44%] border-4 border-white group-hover:bg-white"
+                >
+                  <svg
+                    class="group-hover:fill-[#1dbf73]"
+                    fill="#ffffff"
+                    width="32px"
+                    height="32px"
+                    viewBox="0 0 32 32"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <title />
+
+                    <g data-name="Layer 24" id="Layer_24">
+                      <path
+                        d="M10,12H6a1,1,0,0,1-1-1V7A1,1,0,0,1,6,6h4a1,1,0,0,1,1,1v4A1,1,0,0,1,10,12ZM7,10H9V8H7Z"
+                      />
+
+                      <path
+                        d="M6,8.47V11h4V8.47a2.11,2.11,0,0,1-2,1A2.11,2.11,0,0,1,6,8.47Z"
+                      />
+
+                      <path
+                        d="M21,15.47V18h4V15.47a2.11,2.11,0,0,1-2,1A2.11,2.11,0,0,1,21,15.47Z"
+                      />
+
+                      <path
+                        d="M6,22.47V25h4V22.47a2.11,2.11,0,0,1-2,1A2.11,2.11,0,0,1,6,22.47Z"
+                      />
+
+                      <path d="M29,10H10a1,1,0,0,1,0-2H29a1,1,0,0,1,0,2Z" />
+
+                      <path d="M6,10H3A1,1,0,0,1,3,8H6a1,1,0,0,1,0,2Z" />
+
+                      <path
+                        d="M10,26H6a1,1,0,0,1-1-1V21a1,1,0,0,1,1-1h4a1,1,0,0,1,1,1v4A1,1,0,0,1,10,26ZM7,24H9V22H7Z"
+                      />
+
+                      <path d="M6,24H3a1,1,0,0,1,0-2H6a1,1,0,0,1,0,2Z" />
+
+                      <path d="M29,24H10a1,1,0,0,1,0-2H29a1,1,0,0,1,0,2Z" />
+
+                      <path
+                        d="M25,19H21a1,1,0,0,1-1-1V14a1,1,0,0,1,1-1h4a1,1,0,0,1,1,1v4A1,1,0,0,1,25,19Zm-3-2h2V15H22Z"
+                      />
+
+                      <path d="M21,17H3a1,1,0,0,1,0-2H21a1,1,0,0,1,0,2Z" />
+
+                      <path d="M29,17H25a1,1,0,0,1,0-2h4a1,1,0,0,1,0,2Z" />
+                    </g>
+                  </svg>
+                </div>
+              </div>
+              <div class="px-8 pb-8 flex flex-col gap-4">
+                <div class="text-center">
+                  <span
+                    class="text-2xl font-semibold cursor-pointer hover:text-[#1dbf73]"
+                    style="transition: 0.3s"
+                    >Our Objective</span
+                  >
+                </div>
+                <p class="text-[#656565] text-lg">
+                  Aenean volutpat, dolor eu finibus rhoncus, elit felis vehicula
+                  nunc, ut pulvinar ex diam nec lacus. Phasellus sit amet
+                  rhoncus turpis. Aenean tincidunt auctor purus, ac sodales
+                  sapien sagittis
+                </p>
+                <div class="flex justify-center">
+                  <button
+                    style="transition: 0.3s"
+                    class="bg-[#1dbf73] py-2 px-3 w-35 text-white group-hover:bg-gray-800"
+                  >
+                    Read More
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Service Section -->
+
+    <section
+      class="bg-white flex flex-col gap-10 items-center justify-center py-20"
+    >
+      <div class="flex flex-col gap-6 items-center text-center">
+        <h3
+          class="text-[32px] font-medium w-[200px] pb-[10px] h-auto border-b-4 border-black border-dashed"
+        >
+          Services
+        </h3>
+
+        <p class="text-[#656565] text-[16px] pb-[30px] w-[60%]">
+          Integer sollicitudin sed nulla non consequat. Nullam vitae erat quis
+          leo accumsan ullamcorper. Suspendisse leo purus, pellentesque posuere.
+        </p>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-4 px-70 gap-9 pl-[15%]">
+        <div
+          class="flex flex-col gap-3 justify-center items-center text-center"
+        >
+          <svg
+            fill="#1dbf73"
+            width="56px"
+            height="64px"
+            viewBox="0 0 16 16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M14.25 1.5H1.75A1.25 1.25 0 0 0 .5 2.75v7.5a1.25 1.25 0 0 0 1.25 1.25H6.1v1.75H4v1.25h8v-1.25H9.91V11.5h4.34a1.25 1.25 0 0 0 1.25-1.25v-7.5a1.25 1.25 0 0 0-1.25-1.25zM8.66 13.25H7.35V11.5h1.31zm5.59-3H1.75v-7.5h12.5z"
+            />
+          </svg>
+          <span class="text-[18px] font-semibold">Web Design</span>
+          <p class="text-[#656565] text-16px">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Praesentium.
+          </p>
+        </div>
+        <div
+          class="flex flex-col gap-3 justify-center items-center text-center"
+        >
+          <svg
+            width="56px"
+            height="64px"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              opacity="0.15"
+              d="M5 5.5H19C19.5523 5.5 20 5.94772 20 6.5V15.5C20 16.0523 19.5523 16.5 19 16.5H20.25C20.9404 16.5 21.5 17.0596 21.5 17.75C21.5 18.4404 20.9404 19 20.25 19H3.75C3.05964 19 2.5 18.4404 2.5 17.75C2.5 17.0596 3.05964 16.5 3.75 16.5H5C4.44772 16.5 4 16.0523 4 15.5V6.5C4 5.94771 4.44772 5.5 5 5.5Z"
+              fill="#ffffff"
+            />
+            <path
+              d="M19 16.5H5M19 16.5C19.5523 16.5 20 16.0523 20 15.5V6.5C20 5.94772 19.5523 5.5 19 5.5H5C4.44772 5.5 4 5.94771 4 6.5V15.5C4 16.0523 4.44772 16.5 5 16.5M19 16.5H20.25C20.9404 16.5 21.5 17.0596 21.5 17.75C21.5 18.4404 20.9404 19 20.25 19H3.75C3.05964 19 2.5 18.4404 2.5 17.75C2.5 17.0596 3.05964 16.5 3.75 16.5H5"
+              stroke="#1dbf73"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          <span class="text-[18px] font-semibold">Web Development</span>
+          <p class="text-[#656565] text-[16px]">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Praesentium.
+          </p>
+        </div>
+        <div
+          class="flex flex-col gap-3 justify-center items-center text-center"
+        >
+          <svg
+            fill="#1dbf73"
+            width="56px"
+            height="64px"
+            viewBox="0 0 36 36"
+            version="1.1"
+            preserveAspectRatio="xMidYMid meet"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <title>tablet-solid</title>
+            <path
+              d="M30,2H6A2,2,0,0,0,4,4V32a2,2,0,0,0,2,2H30a2,2,0,0,0,2-2V4A2,2,0,0,0,30,2ZM19,32H17V30h2ZM6,28V4H30V28Z"
+              class="clr-i-solid clr-i-solid-path-1"
+            ></path>
+            <rect x="0" y="0" width="36" height="36" fill-opacity="0" />
+          </svg>
+          <span class="text-[18px] font-semibold">App Design</span>
+          <p class="text-[#656565] text-[16px]">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Praesentium.
+          </p>
+        </div>
+        <div
+          class="flex flex-col gap-3 justify-center items-center text-center"
+        >
+          <svg
+            fill="#1dbf73"
+            width="56px"
+            height="64px"
+            viewBox="0 0 32 32"
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <title>phone</title>
+            <path
+              d="M21.999 4h-12c-1.104 0-1.999 0.896-1.999 2v20c0 1.104 0.895 2 1.999 2h12c1.105 0 2.001-0.896 2.001-2v-20c0-1.104-0.896-2-2.001-2zM13 5h5l0.062 1h-5.062v-1zM15.979 26.5c-0.552 0-1-0.447-1-1s0.448-1 1-1c0.553 0 1 0.447 1 1s-0.448 1-1 1zM21.999 23h-12l0.021-16h11.979v16z"
+            ></path>
+          </svg>
+          <span class="text-[18px] font-semibold">App Development</span>
+          <p class="text-[#656565] text-[16px]">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Praesentium.
+          </p>
+        </div>
+
+        <div
+          class="flex flex-col gap-3 justify-center items-center text-center"
+        >
+          <svg
+            fill="#1dbf73"
+            width="56px"
+            height="64px"
+            viewBox="0 0 16 16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M14.25 1.5H1.75A1.25 1.25 0 0 0 .5 2.75v7.5a1.25 1.25 0 0 0 1.25 1.25H6.1v1.75H4v1.25h8v-1.25H9.91V11.5h4.34a1.25 1.25 0 0 0 1.25-1.25v-7.5a1.25 1.25 0 0 0-1.25-1.25zM8.66 13.25H7.35V11.5h1.31zm5.59-3H1.75v-7.5h12.5z"
+            />
+          </svg>
+          <span class="text-[18px] font-semibold">Web Design</span>
+          <p class="text-[#656565] text-16px">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Praesentium.
+          </p>
+        </div>
+        <div
+          class="flex flex-col gap-3 justify-center items-center text-center"
+        >
+          <svg
+            width="56px"
+            height="64px"
+            viewBox="0 0 24 24"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              opacity="0.15"
+              d="M5 5.5H19C19.5523 5.5 20 5.94772 20 6.5V15.5C20 16.0523 19.5523 16.5 19 16.5H20.25C20.9404 16.5 21.5 17.0596 21.5 17.75C21.5 18.4404 20.9404 19 20.25 19H3.75C3.05964 19 2.5 18.4404 2.5 17.75C2.5 17.0596 3.05964 16.5 3.75 16.5H5C4.44772 16.5 4 16.0523 4 15.5V6.5C4 5.94771 4.44772 5.5 5 5.5Z"
+              fill="#ffffff"
+            />
+            <path
+              d="M19 16.5H5M19 16.5C19.5523 16.5 20 16.0523 20 15.5V6.5C20 5.94772 19.5523 5.5 19 5.5H5C4.44772 5.5 4 5.94771 4 6.5V15.5C4 16.0523 4.44772 16.5 5 16.5M19 16.5H20.25C20.9404 16.5 21.5 17.0596 21.5 17.75C21.5 18.4404 20.9404 19 20.25 19H3.75C3.05964 19 2.5 18.4404 2.5 17.75C2.5 17.0596 3.05964 16.5 3.75 16.5H5"
+              stroke="#1dbf73"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+          <span class="text-[18px] font-semibold">Web Development</span>
+          <p class="text-[#656565] text-[16px]">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Praesentium.
+          </p>
+        </div>
+        <div
+          class="flex flex-col gap-3 justify-center items-center text-center"
+        >
+          <svg
+            fill="#1dbf73"
+            width="56px"
+            height="64px"
+            viewBox="0 0 36 36"
+            version="1.1"
+            preserveAspectRatio="xMidYMid meet"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+          >
+            <title>tablet-solid</title>
+            <path
+              d="M30,2H6A2,2,0,0,0,4,4V32a2,2,0,0,0,2,2H30a2,2,0,0,0,2-2V4A2,2,0,0,0,30,2ZM19,32H17V30h2ZM6,28V4H30V28Z"
+              class="clr-i-solid clr-i-solid-path-1"
+            ></path>
+            <rect x="0" y="0" width="36" height="36" fill-opacity="0" />
+          </svg>
+          <span class="text-[18px] font-semibold">App Design</span>
+          <p class="text-[#656565] text-[16px]">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Praesentium.
+          </p>
+        </div>
+        <div
+          class="flex flex-col gap-3 justify-center items-center text-center"
+        >
+          <svg
+            fill="#1dbf73"
+            width="56px"
+            height="64px"
+            viewBox="0 0 32 32"
+            version="1.1"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <title>phone</title>
+            <path
+              d="M21.999 4h-12c-1.104 0-1.999 0.896-1.999 2v20c0 1.104 0.895 2 1.999 2h12c1.105 0 2.001-0.896 2.001-2v-20c0-1.104-0.896-2-2.001-2zM13 5h5l0.062 1h-5.062v-1zM15.979 26.5c-0.552 0-1-0.447-1-1s0.448-1 1-1c0.553 0 1 0.447 1 1s-0.448 1-1 1zM21.999 23h-12l0.021-16h11.979v16z"
+            ></path>
+          </svg>
+          <span class="text-[18px] font-semibold">App Development</span>
+          <p class="text-[#656565] text-[16px]">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Praesentium.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Call To Action -->
+
+    <section
+      class="bg-[#1dbf73] w-full h-[312px] text-white py-[60px] flex flex-col items-center justify-center gap-12 text-center"
+    >
+      <div
+        class="flex flex-col justify-center items-center text-center gap-2 w-[700px] h-[200px]"
+      >
+        <h3 class="text-[32px] font-medium w-[300px] h-auto">Call to Action</h3>
+
+        <div
+          class="w-[100px] h-[15px] border-b-4 border-white border-dashed"
+        ></div>
+
+        <p class="text-[16px]">
+          Integer sollicitudin sed nulla non consequat. Nullam vitae erat quis
+          leo accumsan ullamcorper. Suspendisse leo purus, pellentesque posuere.
+        </p>
+      </div>
+      <button
+        style="transition: 0.3s"
+        class="bg-white text-[#1dbf73] w-[203px] h-[80px] p-[10px] text-lg hover:bg-[#353535] cursor-pointer hover:text-white"
+      >
+        CALL TO ACTION
+      </button>
+    </section>
+
+    <!-- Our Pricing Section -->
+
+    <section class="flex flex-col gap-14 p-14 bg-[#f2f2f2]">
+      <div class="flex flex-col items-center">
+        <p class="text-[32px] text-black font-semibold">OUR SKILLES</p>
+        <span class="text-[32px] text-black font-bold">---------</span>
+        <p class="text-lg text-[#656565] font-light px-[330px] text-center">
+          Quisque ac tincidunt ipsum egestas viverra mi, ac vehicula enim
+          consectetur quis. In imperdiet varius elit, ut convallis lectus luctus
+          quis.
+        </p>
+      </div>
+      <div class="flex gap-8 px-20 justify-center items-center">
+        <div class="flex flex-col hover:shadow-md">
+          <div
+            class="flex flex-col justify-center items-center bg-[#353535] py-[15px] px-[130px]"
+          >
+            <p class="text-[30px] text-white font-light">Silver</p>
+            <p class="text-[48px] font-semibold text-white">
+              9.<span class="text-[24px]">99</span>
+            </p>
+            <p class="text-[16px] text-white">Per Month</p>
+          </div>
+          <div class="flex flex-col p-6 gap-2 bg-white">
+            <div class="flex items-center gap-2">
+              <svg
+                width="18px"
+                height="18px"
+                viewBox="0 0 24 24"
+                role="img"
+                xmlns="http://www.w3.org/2000/svg"
+                aria-labelledby="okIconTitle"
+                stroke="#1dbf73"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                fill="none"
+                color="#000000"
+              >
+                <title id="okIconTitle">Ok</title>
+                <polyline points="4 13 9 18 20 7" />
+              </svg>
+              <p class="text-[#656565] font-semibold">
+                HTML5 <span class="font-light">and</span> CSS3
+              </p>
+            </div>
+            <div class="flex items-center gap-2">
+              <svg
+                width="18px"
+                height="18px"
+                viewBox="0 0 24 24"
+                role="img"
+                xmlns="http://www.w3.org/2000/svg"
+                aria-labelledby="okIconTitle"
+                stroke="#1dbf73"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                fill="none"
+                color="#000000"
+              >
+                <title id="okIconTitle">Ok</title>
+                <polyline points="4 13 9 18 20 7" />
+              </svg>
+              <p class="text-[#656565] font-semibold">
+                Bootstrap <span class="font-light">4</span>
+              </p>
+            </div>
+            <div class="flex items-center gap-2">
+              <svg
+                width="18px"
+                height="18px"
+                viewBox="0 0 24 24"
+                role="img"
+                xmlns="http://www.w3.org/2000/svg"
+                aria-labelledby="okIconTitle"
+                stroke="#1dbf73"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                fill="none"
+                color="#000000"
+              >
+                <title id="okIconTitle">Ok</title>
+                <polyline points="4 13 9 18 20 7" />
+              </svg>
+              <p class="text-[#656565] font-semibold">
+                Well-commented <span class="font-light">code</span>
+              </p>
+            </div>
+            <div class="flex items-center gap-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#ff0000"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <line x1="18" y1="6" x2="6" y2="18" />
+                <line x1="6" y1="6" x2="18" y2="18" />
+              </svg>
+              <p class="text-[#656565] font-semibold">
+                IonIcons <span class="font-light">integrated</span>
+              </p>
+            </div>
+            <div class="flex items-center gap-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#ff0000"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <line x1="18" y1="6" x2="6" y2="18" />
+                <line x1="6" y1="6" x2="18" y2="18" />
+              </svg>
+              <p class="text-[#656565] font-light">
+                Free <span class="font-semibold">Google Font </span>integrated
+              </p>
+            </div>
+            <div class="flex items-center gap-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="18"
+                height="18"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="#ff0000"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <line x1="18" y1="6" x2="6" y2="18" />
+                <line x1="6" y1="6" x2="18" y2="18" />
+              </svg>
+              <p class="text-[#656565] font-semibold">
+                Responsive <span class="font-light">design</span>
+              </p>
+            </div>
+          </div>
+          <div class="flex justify-center items-center bg-white pb-8">
+            <button
+              class="py-3 px-8 text-4 text-white bg-gray-800 font-light hover:text-white hover:bg-[#1dbf73] transition-all"
+            >
+              BUY NOW
+            </button>
+          </div>
+        </div>
+        <div class="pb-20">
+          <div class="flex flex-col hover:shadow-md">
+            <div
+              class="flex flex-col justify-center items-center bg-[#1dbf73] py-[15px] px-[130px]"
+            >
+              <p class="text-[30px] text-white font-light">Gold</p>
+              <p class="text-[48px] font-semibold text-white">
+                19.<span class="text-[24px]">99</span>
+              </p>
+              <p class="text-[16px] text-white">Per Month</p>
+            </div>
+            <div class="flex flex-col p-6 gap-2 bg-white">
+              <div class="flex items-center gap-2">
+                <svg
+                  width="18px"
+                  height="18px"
+                  viewBox="0 0 24 24"
+                  role="img"
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-labelledby="okIconTitle"
+                  stroke="#1dbf73"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  fill="none"
+                  color="#000000"
+                >
+                  <title id="okIconTitle">Ok</title>
+                  <polyline points="4 13 9 18 20 7" />
+                </svg>
+                <p class="text-[#656565] font-semibold">
+                  HTML5 <span class="font-light">and</span> CSS3
+                </p>
+              </div>
+              <div class="flex items-center gap-2">
+                <svg
+                  width="18px"
+                  height="18px"
+                  viewBox="0 0 24 24"
+                  role="img"
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-labelledby="okIconTitle"
+                  stroke="#1dbf73"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  fill="none"
+                  color="#000000"
+                >
+                  <title id="okIconTitle">Ok</title>
+                  <polyline points="4 13 9 18 20 7" />
+                </svg>
+                <p class="text-[#656565] font-semibold">
+                  Bootstrap <span class="font-light">4</span>
+                </p>
+              </div>
+              <div class="flex items-center gap-2">
+                <svg
+                  width="18px"
+                  height="18px"
+                  viewBox="0 0 24 24"
+                  role="img"
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-labelledby="okIconTitle"
+                  stroke="#1dbf73"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  fill="none"
+                  color="#000000"
+                >
+                  <title id="okIconTitle">Ok</title>
+                  <polyline points="4 13 9 18 20 7" />
+                </svg>
+                <p class="text-[#656565] font-semibold">
+                  Well-commented <span class="font-light">code</span>
+                </p>
+              </div>
+              <div class="flex items-center gap-2">
+                <svg
+                  width="18px"
+                  height="18px"
+                  viewBox="0 0 24 24"
+                  role="img"
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-labelledby="okIconTitle"
+                  stroke="#1dbf73"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  fill="none"
+                  color="#000000"
+                >
+                  <title id="okIconTitle">Ok</title>
+                  <polyline points="4 13 9 18 20 7" />
+                </svg>
+                <p class="text-[#656565] font-semibold">
+                  IonIcons <span class="font-light">integrated</span>
+                </p>
+              </div>
+              <div class="flex items-center gap-2">
+                <svg
+                  width="18px"
+                  height="18px"
+                  viewBox="0 0 24 24"
+                  role="img"
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-labelledby="okIconTitle"
+                  stroke="#1dbf73"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  fill="none"
+                  color="#000000"
+                >
+                  <title id="okIconTitle">Ok</title>
+                  <polyline points="4 13 9 18 20 7" />
+                </svg>
+                <p class="text-[#656565] font-light">
+                  Free <span class="font-semibold">Google Font </span>integrated
+                </p>
+              </div>
+              <div class="flex items-center gap-2">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#ff0000"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <line x1="18" y1="6" x2="6" y2="18" />
+                  <line x1="6" y1="6" x2="18" y2="18" />
+                </svg>
+                <p class="text-[#656565] font-semibold">
+                  Responsive <span class="font-light">design</span>
+                </p>
+              </div>
+            </div>
+            <div class="flex justify-center items-center bg-white pb-8">
+              <button
+                class="py-3 px-8 text-4 text-white bg-[#1dbf73] font-light hover:text-white hover:bg-gray-800 transition-all"
+              >
+                BUY NOW
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col hover:shadow-md">
+          <div
+            class="flex flex-col justify-center items-center bg-[#353535] py-[15px] px-[105px]"
+          >
+            <p class="text-[30px] text-white font-light">Platinum</p>
+            <p class="text-[48px] font-semibold text-white">
+              29.<span class="text-[24px]">99</span>
+            </p>
+            <p class="text-[16px] text-white">Per Month</p>
+          </div>
+          <div class="flex flex-col p-6 gap-2 bg-white">
+            <div class="flex items-center gap-2">
+              <svg
+                width="18px"
+                height="18px"
+                viewBox="0 0 24 24"
+                role="img"
+                xmlns="http://www.w3.org/2000/svg"
+                aria-labelledby="okIconTitle"
+                stroke="#1dbf73"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                fill="none"
+                color="#000000"
+              >
+                <title id="okIconTitle">Ok</title>
+                <polyline points="4 13 9 18 20 7" />
+              </svg>
+              <p class="text-[#656565] font-semibold">
+                HTML5 <span class="font-light">and</span> CSS3
+              </p>
+            </div>
+            <div class="flex items-center gap-2">
+              <svg
+                width="18px"
+                height="18px"
+                viewBox="0 0 24 24"
+                role="img"
+                xmlns="http://www.w3.org/2000/svg"
+                aria-labelledby="okIconTitle"
+                stroke="#1dbf73"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                fill="none"
+                color="#000000"
+              >
+                <title id="okIconTitle">Ok</title>
+                <polyline points="4 13 9 18 20 7" />
+              </svg>
+              <p class="text-[#656565] font-semibold">
+                Bootstrap <span class="font-light">4</span>
+              </p>
+            </div>
+            <div class="flex items-center gap-2">
+              <svg
+                width="18px"
+                height="18px"
+                viewBox="0 0 24 24"
+                role="img"
+                xmlns="http://www.w3.org/2000/svg"
+                aria-labelledby="okIconTitle"
+                stroke="#1dbf73"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                fill="none"
+                color="#000000"
+              >
+                <title id="okIconTitle">Ok</title>
+                <polyline points="4 13 9 18 20 7" />
+              </svg>
+              <p class="text-[#656565] font-semibold">
+                Well-commented <span class="font-light">code</span>
+              </p>
+            </div>
+            <div class="flex items-center gap-2">
+              <svg
+                width="18px"
+                height="18px"
+                viewBox="0 0 24 24"
+                role="img"
+                xmlns="http://www.w3.org/2000/svg"
+                aria-labelledby="okIconTitle"
+                stroke="#1dbf73"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                fill="none"
+                color="#000000"
+              >
+                <title id="okIconTitle">Ok</title>
+                <polyline points="4 13 9 18 20 7" />
+              </svg>
+              <p class="text-[#656565] font-semibold">
+                IonIcons <span class="font-light">integrated</span>
+              </p>
+            </div>
+            <div class="flex items-center gap-2">
+              <svg
+                width="18px"
+                height="18px"
+                viewBox="0 0 24 24"
+                role="img"
+                xmlns="http://www.w3.org/2000/svg"
+                aria-labelledby="okIconTitle"
+                stroke="#1dbf73"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                fill="none"
+                color="#000000"
+              >
+                <title id="okIconTitle">Ok</title>
+                <polyline points="4 13 9 18 20 7" />
+              </svg>
+              <p class="text-[#656565] font-light">
+                Free <span class="font-semibold">Google Font </span>integrated
+              </p>
+            </div>
+            <div class="flex items-center gap-2">
+              <svg
+                width="18px"
+                height="18px"
+                viewBox="0 0 24 24"
+                role="img"
+                xmlns="http://www.w3.org/2000/svg"
+                aria-labelledby="okIconTitle"
+                stroke="#1dbf73"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                fill="none"
+                color="#000000"
+              >
+                <title id="okIconTitle">Ok</title>
+                <polyline points="4 13 9 18 20 7" />
+              </svg>
+              <p class="text-[#656565] font-semibold">
+                Responsive <span class="font-light">design</span>
+              </p>
+            </div>
+          </div>
+          <div class="flex justify-center items-center bg-white pb-8">
+            <button
+              class="py-3 px-8 text-4 text-white bg-gray-800 font-light hover:text-white hover:bg-[#1dbf73] transition-all"
+            >
+              BUY NOW
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Skills Section  -->
+
+    <section class="flex flex-col p-14 gap-14" id="NavarPersent">
+      <div class="flex flex-col items-center">
+        <p class="text-[32px] text-black font-semibold">OUR SKILLES</p>
+        <span class="text-[32px] text-black font-bold">---------</span>
+        <p class="text-lg text-[#656565] font-light px-[330px] text-center">
+          Quisque ac tincidunt ipsum egestas viverra mi, ac vehicula enim
+          consectetur quis. In imperdiet varius elit, ut convallis lectus luctus
+          quis.
+        </p>
+      </div>
+      <div class="flex flex-col gap-4 w-full px-50">
+        <div class="h-8 bg-gray-200 relative">
+          <div
+            class="bar bg-green-500 absolute top-0 left-0 h-full flex justify-between items-center p-4"
+            id="HTMLText"
+          >
+            <p class="text-[12px] text-white">HTML</p>
+            <p class="text-[12px] text-white">100%</p>
+          </div>
+        </div>
+
+        <div class="h-8 bg-gray-200 relative">
+          <div
+            class="bar bg-[#17a2b8] anime2 absolute top-0 left-0 h-full flex justify-between items-center p-4"
+            id="CssText"
+          >
+            <p class="text-[12px] text-white">CSS</p>
+            <p class="text-[12px] text-white">90%</p>
+          </div>
+        </div>
+
+        <div class="h-8 bg-gray-200 relative">
+          <div
+            class="bar bg-[#ffc107] anime3 absolute top-0 left-0 h-full flex justify-between items-center p-4"
+            id="JqueryText"
+          >
+            <p class="text-[12px] text-white">JQUERY</p>
+            <p class="text-[12px] text-white">80%</p>
+          </div>
+        </div>
+
+        <div class="h-8 bg-gray-200 relative">
+          <div
+            class="bar bg-[#dc3545] anime4 absolute top-0 left-0 h-full flex justify-between items-center p-4"
+            id="PhpText"
+          >
+            <p class="text-[12px] text-white">PHP</p>
+            <p class="text-[12px] text-white">70%</p>
+          </div>
+        </div>
+      </div>
+      <div class="flex gap-20 justify-around px-50">
+        <div class="flex flex-col items-center">
+          <p class="text-[60px] text-[#28a745] font-semibold" id="p1">100</p>
+          <p class="text-[18px] text-[#353535] font-light">Our Staffs</p>
+        </div>
+        <div class="flex flex-col items-center">
+          <p class="text-[60px] text-[#28a745] font-semibold" id="p2">200</p>
+          <p class="text-[18px] text-[#353535] font-light">Our Clients</p>
+        </div>
+        <div class="flex flex-col items-center">
+          <p class="text-[60px] text-[#28a745] font-semibold" id="p3">300</p>
+          <p class="text-[18px] text-[#353535] font-light">
+            Completed Projects
+          </p>
+        </div>
+        <div class="flex flex-col items-center">
+          <p class="text-[60px] text-[#28a745] font-semibold" id="p4">400</p>
+          <p class="text-[18px] text-[#353535] font-light">Running Projects</p>
+        </div>
+      </div>
+    </section>
+    <!-- section7 -->
+    <section class="flex flex-col p-14 gap-14 bg-[#f2f2f2] justify-center">
+      <div class="flex flex-col items-center">
+        <p class="text-[32px] text-black font-semibold">Our Portfolio</p>
+        <span class="text-[32px] text-black font-bold">---------</span>
+        <p class="text-lg text-[#656565] font-light px-[330px] text-center">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+          ullamcorper pharetra ligula nec hendrerit. Ut eu libero nec magna
+          placerat fringilla.
+        </p>
+      </div>
+    </section>
 
     <script type="module" src="/src/main.ts"></script>
   </body>
